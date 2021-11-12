@@ -1,0 +1,19 @@
+@import "./reset.css";
+@font-face {
+  font-family: Cocogoose;
+  src: url('../fonts/Cocogoose Pro-trial.ttf');
+}
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Regular.ttf');
+}
+
+h1 {
+  font-family: Cocogoose;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: Lato;
+  font-size: 1.2rem;
+}
