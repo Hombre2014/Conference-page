@@ -92,7 +92,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-- Enter the URL address (https://hombre2014.github.io/My-portfolio/) in your web browser
+- Enter the URL address (https://hombre2014.github.io/Conference-page/) in your web browser
 
 ### Run tests
 
