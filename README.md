@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Yuriy Chamkoriyski Microverse Portfolio
+# Yuriy Chamkoriyski Capstoneproject 1 - React Summit
 
 > First capstone project at Microverse.
 
-![screenshot](./images/app-screenshot.jpg)
+![screenshot](./images/app_snapshot.png)
 
 ## Description
 

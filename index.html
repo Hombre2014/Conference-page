@@ -15,7 +15,8 @@
   <div class="container">
     <header>
       <div class="menu-container">
-        <div class="top-bar">
+        <i class="fas fa-bars hide-on-big hamburger"></i>
+        <div class="top-bar hide-on-small">
           <i class="fab fa-facebook-f"></i>
           <i class="fab fa-twitter"></i>
           <ul class="menu">
@@ -25,7 +26,7 @@
           </ul>
         </div>
       </div>
-      <div class="second-bar">
+      <div class="second-bar hide-on-small">
         <div class="navigation">
           <div class="logo">
             <a href="index.html" title="Home"><img src="./images/react_logo.png" alt="React logo" width="96px" , height="auto"></a>
@@ -44,7 +45,8 @@
         </div>
       </div>
     </header>
-    <img class="people-img" src="./images/React_summit_people_1920.jpg" alt="people">
+    <img class="people-img hide-on-small" src="./images/React_summit_people_1920.jpg" alt="people">
+    <img class="people-img hide-on-big" src="./images/React_summit_people_767_light.jpg" alt="people">
     <div class="heading">
       <div class="cross-circle"></div>
       <div class="heading-text">
@@ -52,7 +54,7 @@
         <div class="back">
           <h1 class="title"><span class="letters">REACT THAT ROCKS<br>GLOBAL SUMIT<br>2022</span></h1>
         </div>
-        <p class="summit-text">React Summit is an annual conference on all things React, gathering<br>thousands of
+        <p class="summit-text">React Summit is an annual conference on all things React, gathering thousands of
           Front-end and Full-stack
           engineers from around the world.</p>
         <h2 class="date">2022.06.17(SUN) ~ 21(THU) Remote</h2>
@@ -104,7 +106,9 @@
             </div>
           </div>
         </div>
-        <p class="whole-program">SEE THE WHOLE PROGRAM</p>
+        <p class="whole-program hide-on-small">SEE THE WHOLE PROGRAM</p>
+        <p class="join hide-on-big">Join React Summit 2022</p>
+        <div class="hide-on-big pad-link"></div>
       </section>
 
       <section class="featured-speakers">
@@ -136,7 +140,8 @@
               </div>
             </div>
           </div>
-          <div class="second-speakers">
+          <button class="more hide-on-big" type="button">MORE <i class="fas fa-chevron-down"></i></button>
+          <div class="second-speakers hide-on-small">
             <div class="speaker">
               <img class="speaker-photo" src="./images/saravieira.jpg" alt="Sara Vieira">
               <div class="bio">
@@ -161,7 +166,7 @@
               </div>
             </div>
           </div>
-          <div class="third-speakers">
+          <div class="third-speakers hide-on-small">
             <div class="speaker">
               <img class="speaker-photo" src="./images/Sunil_Pai.jpg" alt="Sunil Pai">
               <div class="bio">
@@ -188,7 +193,7 @@
           </div>
         </div>
       </section>
-      <section class="partners">
+      <section class="partners hide-on-small">
         <h3 class="partner-title">Sponsors</h3>
         <hr class="line-orange">
         <div class="brands">
@@ -200,7 +205,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer-home">
+    <footer class="footer-home hide-on-small">
       <div class="footer-container">
         <div class="react">
           <img src="./images/react_logo_black.png" alt="React Sumit logo" width="96px" , height="auto">
