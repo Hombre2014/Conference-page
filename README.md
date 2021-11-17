@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Yuriy Chamkoriyski Capstoneproject 1 - React Summit
+# Yuriy Chamkoriyski Capstone project 1 - React Summit 2022
 
 > First capstone project at Microverse.
 

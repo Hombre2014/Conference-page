@@ -15,7 +15,6 @@
   <div class="container">
     <header>
       <div class="menu-container">
-        <i class="fas fa-bars hide-on-big hamburger"></i>
         <div class="top-bar hide-on-small">
           <i class="fab fa-facebook-f"></i>
           <i class="fab fa-twitter"></i>
@@ -26,21 +25,26 @@
           </ul>
         </div>
       </div>
-      <div class="second-bar hide-on-small">
+      <div class="second-bar">
         <div class="navigation">
           <div class="logo">
-            <a href="index.html" title="Home"><img src="./images/react_logo.png" alt="React logo" width="96px" , height="auto"></a>
-            <span class="logo-text">React Global Summit 2022</span>
+            <a class="hide-on-small" href="index.html" title="Home"><img src="./images/react_logo.png" alt="React logo"
+                width="96px" , height="auto"></a>
+            <span class="logo-text hide-on-small">React Global Summit 2022</span>
           </div>
-          <nav>
+          <nav class="navigation-small hide-on-small">
             <ul class="links">
               <li class="link link-first"><a href="about.html" title="About us">About</a></li>
               <li class="link"><a href="#" title="Program">Program</a></li>
               <li class="link"><a href="#" title="Join">Join</a></li>
               <li class="link"><a href="#" title="Sponsor">Sponsor</a></li>
               <li class="link"><a href="#" title="News">News</a></li>
-              <li class="link link-last"><a href="#" title="React Sumit">RS Conference</a></li>
+              <li class="link link-last"><a href="index.html" title="React Sumit">RS Conference</a></li>
             </ul>
+          </nav>
+          <nav class="hide-on-big">
+            <i class="fas fa-bars hamburger"></i>
+            <i class="fas fa-times close-button"></i>
           </nav>
         </div>
       </div>
@@ -149,8 +153,10 @@
                 <h5 class="company">Remote, Germany</h5>
                 <hr class="line-grey">
                 <p>Sara is a developer at Remote. Author of <a href="https://opinionatedreact.com/"><strong
-                  class="speaker-link">The Opinionated Guide to React</strong></a>. GraphQL and Open Source enthusiast. Conference Speaker and Airport
-                  expert. She's also a fan of horror movies, has talents such as banging sticks into a drum kit and saying the wrong thing at
+                      class="speaker-link">The Opinionated Guide to React</strong></a>. GraphQL and Open Source
+                  enthusiast. Conference Speaker and Airport
+                  expert. She's also a fan of horror movies, has talents such as banging sticks into a drum kit and
+                  saying the wrong thing at
                   the wrong time.</p>
               </div>
             </div>

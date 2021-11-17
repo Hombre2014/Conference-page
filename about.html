@@ -15,7 +15,6 @@
   <div class="about-container">
     <header>
       <div class="menu-container">
-        <i class="fas fa-bars hide-on-big hamburger"></i>
         <div class="top-bar hide-on-small">
           <i class="fab fa-facebook-f"></i>
           <i class="fab fa-twitter"></i>
@@ -26,21 +25,26 @@
           </ul>
         </div>
       </div>
-      <div class="second-ba hide-on-small">
+      <div class="second-bar">
         <div class="navigation">
           <div class="logo">
-            <a href="index.html" title="Home"><img src="./images/react_logo.png" alt="React logo" width="96px" , height="auto"></a>
-            <span class="logo-text">React Global<br>Summit 2022</span>
+            <a class="hide-on-small" href="index.html" title="Home"><img src="./images/react_logo.png" alt="React logo"
+                width="96px" , height="auto"></a>
+            <span class="logo-text hide-on-small">React Global Summit 2022</span>
           </div>
-          <nav>
+          <nav class="navigation-small hide-on-small">
             <ul class="links">
               <li class="link link-first"><a href="about.html" title="About us">About</a></li>
               <li class="link"><a href="#" title="Program">Program</a></li>
               <li class="link"><a href="#" title="Join">Join</a></li>
               <li class="link"><a href="#" title="Sponsor">Sponsor</a></li>
               <li class="link"><a href="#" title="News">News</a></li>
-              <li class="link link-last"><a href="#" title="React Sumit">RS Conference</a></li>
+              <li class="link link-last"><a href="index.html" title="React Sumit">RS Conference</a></li>
             </ul>
+          </nav>
+          <nav class="hide-on-big">
+            <i class="fas fa-bars hamburger"></i>
+            <i class="fas fa-times close-button"></i>
           </nav>
         </div>
       </div>
@@ -105,10 +109,12 @@
         <p class="about-paragraph">Take a look at the last two React Summit which took place in London, UK 2018 and
           Lagos, Nigeria 2019</p>
         <div class="past-summits">
-          <a href="https://reactsummit2019.splashthat.com/" title="React Summit London"></a><img class="past-photo past-photo-about"
-            src="./images/React_summit_2_color_text.png" alt="React Summit Lagos, Nigeria, 2019"></a>
-          <a href="https://reactsummit2019.splashthat.com/" title="React Summit London"></a><img class="past-photo past-photo-about"
-            src="./images/React_summit_2_color_text.png" alt="React Summit Lagos, Nigeria, 2019"></a>
+          <a href="https://reactsummit2019.splashthat.com/" title="React Summit London"></a><img
+            class="past-photo past-photo-about" src="./images/React_summit_2_color_text.png"
+            alt="React Summit Lagos, Nigeria, 2019"></a>
+          <a href="https://reactsummit2019.splashthat.com/" title="React Summit London"></a><img
+            class="past-photo past-photo-about" src="./images/React_summit_2_color_text.png"
+            alt="React Summit Lagos, Nigeria, 2019"></a>
         </div>
       </div>
     </section>
@@ -131,8 +137,9 @@
         </div>
         <div class="legal about-legal">
           <span>Copyright © 2021 Facebook Inc. All rights reserved.</span>
-          <p class="footer-last hide-on-small">To find out more, full summit schedule, registration and tickets, please visit <a
-              class="speaker-link-about" href="https://reactsummit.com/" title="React Sumit 2022">React summit</a> at:
+          <p class="footer-last hide-on-small">To find out more, full summit schedule, registration and tickets, please
+            visit <a class="speaker-link-about" href="https://reactsummit.com/" title="React Sumit 2022">React
+              summit</a> at:
             https://reactsummit.com/</p>
         </div>
       </div>
@@ -151,6 +158,7 @@
 
     </div>
   </div>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
