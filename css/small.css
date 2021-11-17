@@ -363,6 +363,10 @@
   border-radius: 4px;
 }
 
+.more-clicked {
+  display: none;
+}
+
 .fa-chevron-down {
   color: #ec5242;
   margin-left: 1rem;
@@ -370,6 +374,7 @@
 
 .partners {
   background-color: #414246;
+  margin-top: 3rem;
 }
 
 .partner-title {
