@@ -1,8 +1,4 @@
 @media only screen and (min-width: 768px) {
-  .hide-on-big {
-    display: none;
-  }
-
   .top-bar {
     width: 85%;
     margin: 0 auto;
@@ -117,7 +113,7 @@
   }
   
   .back {
-    background: url(../images/back2.jpg) no-repeat;
+    background: url(../images/background_heading_502.jpg) no-repeat;
     margin: 0px;
   }
   
@@ -129,7 +125,7 @@
     border: 2px solid #fff;
     padding: 0.8rem;
     line-height: 1.8rem;
-    width: 78%;
+    width: 60%;
     margin-bottom: 2rem;
   }
   
@@ -142,6 +138,8 @@
   }
   
   .place {
+    position: relative;
+    z-index: 3;
     font-size: 1.4rem;
     font-weight: 500;
     padding-bottom: 8rem;
@@ -526,8 +524,52 @@
     column-gap: 1rem;
   }
   
+  .dollar-sign {
+    position: absolute;
+    z-index: 2;
+    top: 15vh;
+    left: 68vw;
+    width: 5vw;
+    opacity: 0.2
+  }
   
-  
+  .zero {
+    position: absolute;
+    z-index: 2;
+    top: 36vh;
+    left: 2vw;
+    width: 5vh;
+    opacity: 0.4;
+  }
+
+  .zero-2 {
+    position: absolute;
+    z-index: 2;
+    top: 42vh;
+    left: 90vw;
+    width: 5vh;
+    opacity: 0.4;
+  }
+
+  .yen-sign {
+    position: absolute;
+    z-index: 2;
+    top: 78vh;
+    left: 2vw;
+    width: 5vh;
+    opacity: 0.2
+  }
+
+  .eyes {
+    background-image: url(../images/eyes.png);
+    position: absolute;
+    top: 80vh;
+    left: 20vw;
+    width: 48px;
+    z-index: 2;
+    opacity: 0.2;
+  }
+
   .pattern {
     width: 120px;
     height: 120px;
@@ -550,11 +592,11 @@
   .cross-circle {
     z-index: 1;
     position: absolute;
-    left: 72%;
-    top: 44%;
+    top: 53vh;
+    left: 57vw;
     background-image: url(../images/cros_7.png);
-    width: 100px;
-    height: 100px;
+    width: 11vh;
+    height: 11vh;
     border-radius: 50%;
     background-repeat: repeat;
   }
@@ -567,6 +609,48 @@
     width: 96px;
     height: 96px;
     transform: rotate(45deg);
+    position: absolute;
+    top: 60vh;
+    left: 82vw;
   }
-  
+
+  .cross-single {
+    width: 4vh;
+    position: absolute;
+    top: 50vh;
+    left: 95vw;
+    z-index: 2;
+    opacity: 0.9;
+  }
+
+  .cross-single-2 {
+    width: 4vh;
+    position: absolute;
+    top: 78vh;
+    left: 74vw;
+    z-index: 2;
+    opacity: 0.2;
+  }
+
+  .cross-single-3 {
+    width: 4vh;
+    position: absolute;
+    top: 75vh;
+    left: 30vw;
+    z-index: 2;
+    opacity: 0.6;
+  }
+
+  .letter-c {
+    position: absolute;
+    z-index: 2;
+    top: 72vh;
+    left: 64vw;
+    width: 4vh;
+    opacity: 0.2
+  }
+
+  .hide-on-big {
+    display: none;
+  }
 }
