@@ -103,16 +103,6 @@ const speakerName = document.querySelectorAll('.speaker-name');
 const company = document.querySelectorAll('.company');
 const speakerText = document.querySelectorAll('.speaker-text');
 
-// Amadu's suggestion
-// const speakerPresent = speakers.find(speaker => speaker.value === 5);
-// console.log(speakerPresent);
-// const { photo, bio } = speakerPresent;
-// const [speakername, speakerCompany, description] = bio;
-// speakerName.innerText = speakername;
-// company.innerText = speakerCompany;
-// speakerText.innerText = description;
-// speakerPhoto.src = photo;
-
 function showSpeakers() {
   for (let i = 0; i < 6; i += 1) {
     speakerPhoto[i].setAttribute('src', speakers[i].photo);
@@ -128,4 +118,4 @@ function main() {
   showSpeakers();
 }
 
-main();
+window.onload = main();
