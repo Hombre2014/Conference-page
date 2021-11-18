@@ -204,6 +204,16 @@
     padding: 1rem 1.5rem;
   }
 
+  .join:hover {
+    background-color: #fff;
+    color: #ec5242;
+    transition: all 1s;
+  }
+
+  .join {
+    color: #fff;
+  }
+
   .pad-link {
     padding-bottom: 2rem;
   }
@@ -356,6 +366,17 @@
     padding: 1rem 0;
     border: 2px solid #e2e2e2;
     border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+
+  .more:hover {
+    background-color: #ec5242;
+    color: #fff;
+  }
+
+  .more:hover > .fa-chevron-down {
+    color: #fff;
   }
 
   .more-clicked {
@@ -383,6 +404,13 @@
     width: 100px;
     margin-bottom: 2rem;
     padding: 0 0.4rem;
+    filter: grayscale(100%);
+    transition: filter 0.8s, transform 0.8s;
+  }
+
+  .brand-img:hover {
+    filter: none;
+    transform: scale(1.1);
   }
 
   .brands {

@@ -207,6 +207,14 @@
     text-decoration: underline;
     padding: 4rem 0;
   }
+
+  .whole-program > a {
+    color: #fff;
+  }
+
+  .whole-program > a:hover {
+    color: #ec5242;
+  }
   
   .featured-speakers {
     background-color: #f8f8f8;
@@ -298,6 +306,13 @@
   .brand-img {
     width: 120px;
     margin-right: 1rem;
+    filter: grayscale(100%);
+    transition: filter 0.6s, transform 0.6s;
+  }
+
+  .brand-img:hover {
+    filter: none;
+    transform: scale(1.1);
   }
   
   .brands {
@@ -361,10 +376,12 @@
   
   .fa-home {
     margin-right: 0.5rem;
+    color: #272a31;
   }
   
   .about-link {
     color: #b5b5b5;
+    margin-left: 0.5rem;
   }
   
   .about-title {
@@ -375,7 +392,7 @@
     font-weight: 800;
     line-height: 1.5;
     letter-spacing: 0.1rem;
-    margin-top: 1rem;
+    margin-top: 4rem;
   }
   
   .about-hello {
@@ -386,6 +403,8 @@
   }
 
   .about-text {
+    position: relative;
+    z-index: 2;
     width: 65%;
     background-color: #fff;
     border: 2px solid #b5b5b5;
@@ -417,6 +436,11 @@
     font-weight: 600;
     color: #272a31;
     text-decoration: underline;
+  }
+
+  .email:hover {
+    color: #ec5242;
+    text-decoration: none;
   }
   
   .email-address {
@@ -493,7 +517,7 @@
   }
   
   .past-photo {
-    width: 45%;
+    width: 100%;
   }
   
   .footer-about {
@@ -517,7 +541,7 @@
   .footer-container-about {
     display: flex;
     width: 85%;
-    margin: 3rem auto;
+    margin: 3rem auto 0 auto;
     padding: 3rem 0;
     justify-content: space-between;
     align-items: flex-end;
@@ -570,9 +594,12 @@
     opacity: 0.2;
   }
 
-  .pattern {
-    width: 120px;
-    height: 120px;
+  .pattern1 {
+    position: absolute;
+    top: 29vh;
+    left: 81vw;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background: linear-gradient(45deg, #272a31 10%, #fff 10%, #fff 40%, #272a31 40%, #272a31 60%, #fff 60%, #fff 90%, #272a31 90%);
     background-size: 6px 6px;
@@ -580,8 +607,11 @@
   }
   
   .pattern2 {
-    width: 70px;
-    height: 70px;
+    position: absolute;
+    top: 22vh;
+    left: 18vw;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background: linear-gradient(-45deg, #ec5242 10%, #fff 10%, #fff 40%, #ec5242 40%, #ec5242 60%, #fff 60%, #fff 90%, #ec5242 90%);
     background-size: 6px 6px;
@@ -601,6 +631,40 @@
     background-repeat: repeat;
   }
   
+  .cross-circle-about {
+    z-index: 1;
+    position: absolute;
+    top: 37vh;
+    left: 12vw;
+    background-image: url(../images/cros_7.png);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-repeat: repeat;
+  }
+
+  .circle-chess-about {
+    background-image: url(../images/small-pattern.svg);
+    border-radius: 50%;
+    background-repeat: repeat;
+    position: absolute;
+    top: 33vh;
+    left: 10vw;
+    width: 50px;
+    height: 50px;
+  }
+
+  .circle-chess-about-big {
+    background-image: url(../images/small-pattern.svg);
+    border-radius: 50%;
+    background-repeat: repeat;
+    position: absolute;
+    top: 38vh;
+    right: 10vw;
+    width: 70px;
+    height: 70px;
+  }
+
   .demo {
     background-color: #f8f8f8;
     background-image: linear-gradient(45deg, #dadada 25%, transparent 25%, transparent 75%, #dadada 75%), linear-gradient(45deg, #dadada 25%, transparent 25%, transparent 75%, #dadada 75%);
